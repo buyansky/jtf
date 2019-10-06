@@ -27,7 +27,7 @@ func defaultDir() string {
 		return `C:\gocc\`
 	}
 	if goPath, ok := os.LookupEnv("GOPATH"); ok {
-		return goPath + "/pkg/mod/github.com/buyansky/zhtotw/"
+		return goPath + "/pkg/mod/github.com/buyansky/zhtotws@v1.0/"
 	} else {
 		return `/usr/local/share/gocc/`
 	}
